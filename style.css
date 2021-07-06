@@ -7,6 +7,7 @@ nav {
     background-color: #97b735;
     color:white;
 
+
 }
 nav ul{
     list-style: none; 
@@ -56,4 +57,37 @@ article a {
 .column {
     padding: 30px;
 
+}
+#author {
+    margin-top: 90px;
+    background-image: url('pictures/avatar.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 100px;
+    padding-left: 130px;
+}
+footer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+    background-color: #97b735;
+    color: white;
+    padding: 5px 100px 30px 100px;
+
+}
+footer div {
+    padding: 15px;
+}
+footer h4{
+    font-size: 20px;
+    margin: 10px 0 0 0 ;
+}
+footer h4 i {
+    font-size: 26px;
+    margin: 10px 10px 2px 0 ;
+}
+
+footer p {
+    margin: 0;
+    font-size: 12px;
 }
